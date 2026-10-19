@@ -1,0 +1,13 @@
+{
+  "id": "./",
+  "name": "경주김씨 종친회",
+  "short_name": "경주김씨",
+  "description": "족보와 소식, 세대를 잇는 종친회 앱 시연",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f7f2",
+  "theme_color": "#294b3b",
+  "icons": [{"src":"./assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}

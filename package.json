@@ -1,0 +1,16 @@
+{
+  "name": "gyeongjukim",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "경주김씨 종친회 통합 웹앱 — GitHub Pages용 가상 자료 데모",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/domain.test.js"
+  }
+}

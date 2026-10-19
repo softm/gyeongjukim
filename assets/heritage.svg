@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="400" y1="0" x2="400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F1E5"/>
+      <stop offset="1" stop-color="#E9EBDC"/>
+    </linearGradient>
+    <linearGradient id="distant" x1="390" y1="130" x2="390" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D0D8BA" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#E4E7D6" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="520" y1="232" x2="520" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B4C39A" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#D5DEC0" stop-opacity=".25"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="400" y1="430" x2="400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2E7CF"/>
+      <stop offset="1" stop-color="#EDF0E1"/>
+    </linearGradient>
+    <pattern id="paper" width="21" height="19" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r=".6" fill="#76856A" opacity=".08"/>
+      <circle cx="16" cy="12" r=".6" fill="#76856A" opacity=".05"/>
+      <path d="M8 16H10M13 5H15" stroke="#798768" stroke-opacity=".04" stroke-width=".6"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" rx="30" fill="url(#sky)"/>
+  <circle cx="602" cy="139" r="43" fill="#D9CAA4" opacity=".45"/>
+  <circle cx="602" cy="139" r="54" stroke="#CECAA8" stroke-opacity=".2"/>
+  <path d="M-34 351C20 334 73 287 125 262C171 240 192 276 228 249C276 213 304 153 349 160C386 166 413 229 452 228C503 226 520 184 555 194C590 203 628 280 668 288C711 296 745 260 826 291V502H-34V351Z" fill="url(#distant)"/>
+  <path d="M-23 388C39 346 84 349 124 320C165 290 188 303 226 322C255 338 279 307 312 300C356 290 381 333 416 309C453 283 466 240 500 242C537 244 551 296 585 314C616 330 637 313 668 322C723 338 759 381 824 361V529H-23V388Z" fill="url(#hill)"/>
+  <path d="M63 344C118 321 153 323 185 337M301 321C326 312 351 317 368 326M459 288C477 272 490 260 502 261M590 338C620 339 642 331 659 337" stroke="#94A77E" stroke-opacity=".24" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M0 435C127 416 233 419 330 433C445 450 539 421 636 413C706 406 747 416 800 424V600H0V435Z" fill="url(#ground)"/>
+  <path d="M0 480C99 459 203 473 297 477C416 483 535 455 623 460C694 463 743 482 800 477" stroke="#C0CCA9" stroke-width="1.3" stroke-linecap="round" opacity=".55"/>
+  <path d="M318 454C338 469 361 482 391 493C423 505 473 514 491 544C501 559 499 580 501 600H617C604 570 580 548 548 532C485 500 432 484 408 454H318Z" fill="#F5F3E7" opacity=".85"/>
+  <path d="M409 459C435 485 483 501 518 516M325 461C345 474 366 485 390 494" stroke="#C4CEB0" stroke-opacity=".55" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- An original, non-specific Korean heritage hall. -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M225 438H597L606 453H211L225 438Z" fill="#D3DBBD" stroke="#879A6C" stroke-width="1.4"/>
+    <path d="M214 452H604V460H214V452Z" fill="#DEE4CE" stroke="#879A6C" stroke-width="1.3"/>
+    <path d="M237 355H581V439H237V355Z" fill="#E8E9D5" stroke="#778C5F" stroke-width="1.5"/>
+    <path d="M261 366H315V438H261V366ZM328 366H381V438H328V366ZM433 366H486V438H433V366ZM499 366H554V438H499V366Z" fill="#D9DFC2" stroke="#899B70" stroke-width="1.1"/>
+    <path d="M395 366H421V438H395V366Z" fill="#B3C095" stroke="#7B9062" stroke-width="1.1"/>
+    <path d="M241 357V440M320 357V440M387 357V440M429 357V440M492 357V440M578 357V440" stroke="#6F8557" stroke-width="5"/>
+    <path d="M241 357V440M320 357V440M387 357V440M429 357V440M492 357V440M578 357V440" stroke="#96A97A" stroke-width="2.3"/>
+    <path d="M259 368H556M259 427H556" stroke="#96A57D" stroke-width="1"/>
+    <path d="M274 368V426M288 368V426M302 368V426M341 368V426M354 368V426M368 368V426M446 368V426M459 368V426M473 368V426M512 368V426M526 368V426M540 368V426" stroke="#A2B08A" stroke-width=".9"/>
+    <path d="M261 382H314M261 398H314M261 413H314M328 382H381M328 398H381M328 413H381M433 382H486M433 398H486M433 413H486M499 382H554M499 398H554M499 413H554" stroke="#A2B08A" stroke-width=".9"/>
+    <path d="M224 350H590V363H224V350Z" fill="#ABB98C" stroke="#72865B" stroke-width="1.4"/>
+    <path d="M202 352C237 341 271 324 305 305C340 298 375 291 408 275C442 292 475 298 511 305C544 324 578 341 615 352C568 349 509 344 408 343C308 344 249 349 202 352Z" fill="#7E9466" stroke="#526D46" stroke-width="1.8"/>
+    <path d="M216 351C287 335 333 314 408 287C482 314 531 335 601 351" stroke="#ADBC90" stroke-width="1.2"/>
+    <path d="M276 331L300 316M305 327L327 308M336 322L352 302M366 320L377 295M395 317L401 290M423 317L416 290M451 320L441 295M481 322L465 302M512 327L490 308M541 331L518 316" stroke="#B4C299" stroke-opacity=".68" stroke-width="1"/>
+    <path d="M212 351C277 345 334 342 408 340C481 342 537 345 605 351" stroke="#4D6941" stroke-width="2"/>
+    <path d="M296 305C333 301 374 291 408 273C444 291 482 300 520 305" stroke="#48653E" stroke-width="3"/>
+    <path d="M294 305L287 302M520 305L528 302M408 273V265" stroke="#48653E" stroke-width="2"/>
+    <path d="M371 440H445L452 451H364L371 440ZM363 451H453L459 460H357L363 451ZM354 460H462L470 468H346L354 460Z" fill="#DCE2CB" stroke="#8D9F74" stroke-width="1.1"/>
+  </g>
+
+  <!-- Pine and small garden details. -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M155 455C157 414 159 380 166 349C171 328 176 313 176 292M161 390C147 371 133 356 113 340M165 358C189 347 204 335 214 316M169 339C153 319 141 298 138 280M177 318C196 306 207 291 211 274" stroke="#7C8E64" stroke-width="5"/>
+    <path d="M153 455L168 456M155 413L162 413" stroke="#8C9D73" stroke-width="1.4"/>
+    <path d="M78 340C65 331 76 317 88 316C88 302 107 292 119 301C128 290 150 294 152 308C168 309 172 327 159 335C137 340 107 344 78 340Z" fill="#9CAF84"/>
+    <path d="M164 321C153 312 160 300 173 297C171 282 192 273 204 279C213 266 234 274 233 287C248 292 246 308 233 313C212 320 187 323 164 321Z" fill="#95AA7A"/>
+    <path d="M113 285C98 278 108 259 121 257C122 244 141 239 153 247C165 238 182 247 181 259C196 263 194 280 180 285C155 290 136 289 113 285Z" fill="#A2B58B"/>
+    <path d="M178 272C165 264 171 251 184 248C183 234 204 225 216 233C230 225 246 236 243 248C255 254 251 267 237 271C217 277 197 277 178 272Z" fill="#ADC09A"/>
+    <path d="M90 331C105 326 122 327 137 330M174 311C187 306 207 306 220 306M123 276C136 270 153 271 167 274M189 263C200 258 216 258 229 260" stroke="#798F62" stroke-opacity=".4" stroke-width="1.2"/>
+    <path d="M642 445C645 425 652 410 660 396M650 422L635 408M656 406L670 395" stroke="#98AA7B" stroke-width="1.5"/>
+    <path d="M633 410C622 408 617 399 621 390C633 391 639 398 633 410ZM660 398C650 391 652 380 661 375C670 382 670 391 660 398ZM669 397C668 386 676 379 686 381C686 392 679 398 669 397Z" fill="#BDCD9F"/>
+    <path d="M80 458C103 453 127 452 150 457M170 459C184 456 193 457 207 459M615 452C634 447 659 448 680 451M701 454C718 451 735 452 751 456" stroke="#B0BF96" stroke-width="1.2"/>
+    <path d="M57 513L62 506L68 513M681 517L686 510L691 517M723 549L728 542L733 548M170 537L175 530L180 537" stroke="#AEBE96" stroke-width="1.2"/>
+    <path d="M107 489H122M627 494H646M222 527H232M591 557H605" stroke="#BAC7A4" stroke-width="1.2"/>
+  </g>
+  <path d="M487 139C493 134 499 134 505 139C511 134 517 134 522 139M466 164C470 160 474 160 478 164C482 160 486 160 490 164" stroke="#A5B091" stroke-width="1.4" stroke-linecap="round"/>
+  <rect width="800" height="600" rx="30" fill="url(#paper)"/>
+</svg>
